@@ -1,0 +1,62 @@
+.workout-plan {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.day {
+  padding: 10px;
+}
+
+.rest-day {
+  font-weight: bold;
+  text-align: center;
+}
+
+.exercise-list {
+  list-style: none;
+  padding: 0;
+}
+
+.exercise-item {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.exercise {
+  font-weight: bold;
+}
+
+.sets-reps {
+  display: flex;
+  color: #888;
+}
+
+.bts {
+  margin-left: 25px;
+}
+
+.workout-plan {
+  margin-bottom: 20px;
+}
+
+.day {
+  margin-top: 10px;
+}
+
+.exercise-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.exercise-item {
+  margin-bottom: 10px;
+}
+
+.sets-reps button {
+  margin-left: 10px;
+}
